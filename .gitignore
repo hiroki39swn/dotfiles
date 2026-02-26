@@ -1,0 +1,14 @@
+# macOS noise
+.DS_Store
+
+# Never commit secrets/host state
+home/gh/.config/gh/hosts.yml
+home/ssh/.ssh/id_*
+home/ssh/.ssh/*.pub
+home/ssh/.ssh/known_hosts*
+
+# Shell/runtime history and generated state
+home/**/.zcompdump*
+home/**/.zsh_history
+home/**/.lesshst
+home/**/.viminfo
