@@ -11,7 +11,7 @@ config.font = wezterm.font_with_fallback({
 })
 config.use_ime = true
 config.window_background_opacity = 0.75
-config.macos_window_background_blur = 20
+config.macos_window_background_blur = 40
 
 -- 背景画像の設定
 -- background.png を wezterm config ディレクトリに配置すると有効になる
